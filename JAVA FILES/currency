@@ -1,0 +1,16 @@
+/*GET THE CURRENCY INSTANCE
+        NumberFormat nf = NumberFormat.getCurrencyInstance();
+        //SET THE CURRENCY OF US 
+         nf.setCurrency(Currency.getInstance(Locale.US));
+        // PRINT THE PAYMENT IN DEFINED CURRENCY
+        System.out.println("US: " + nf.format(payment));
+        //create a new locale for india 
+       
+       //print locale
+        nf.setCurrency(Currency.getInstance(new Locale("en", "IN")));
+        System.out.println("India: " + nf.format(payment));
+         nf.setCurrency(Currency.getInstance(Locale.CHINA));
+         System.out.println("China: " + nf.format(payment));
+        nf.setCurrency(Currency.getInstance(Locale.FRANCE));
+            System.out.println("France: "+nf.format(payment));
+    */
